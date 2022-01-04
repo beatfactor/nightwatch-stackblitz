@@ -1,0 +1,25 @@
+{
+  "name": "stackblitz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nightwatch test/ --env browserstack.chrome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beatfactor/nightwatch-stackblitz.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/beatfactor/nightwatch-stackblitz/issues"
+  },
+  "homepage": "https://github.com/beatfactor/nightwatch-stackblitz#readme",
+  "devDependencies": {
+    "chromedriver": "^96.0.0",
+    "eslint": "^8.6.0",
+    "nightwatch": "^2.0.0-beta.2"
+  }
+}
